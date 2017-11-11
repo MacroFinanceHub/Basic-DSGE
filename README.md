@@ -43,3 +43,7 @@ RBC20.mod:       Función de Utilidad logarítmica con choque al margen de preci
 Grafico_program.m: Programa para hacer gráficos en Matlab a partir de productos del Dynare (IRF).
 
 Grid_alpha.md:   "Setea" valores de alpha ante choques de productividad.
+
+BaseLambda01.xlsx: Base de datos para obtención de ciclos económicos.
+
+programa1.prg:   Programa en Eviews para obtención de ciclos económicos.
