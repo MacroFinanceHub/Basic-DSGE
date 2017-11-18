@@ -38,9 +38,21 @@ RBC14.mod:       Función de Utilidad logarítmica con dinero en la función de 
 
 RBC15.mod:       Función de Utilidad logarítmica con trabajo indivisible a la Hansen.
 
+RBC16.mod:       Economia pequena y abierta - factor de descuento endogeno.
+
+RBC16a.mod:      Economia pequena y abierta - factor de descuento endogeno sin internalizacion.
+
+RBC17.mod:       Economia pequena y abierta - tasa de interes elastica a la deuda.
+
+RBC18.mod:       Economia pequena y abierta - costo de ajuste del portafolio.
+
+RBC19.mod:       Economia pequena y abierta - mercados completos.
+
 RBC20.mod:       Función de Utilidad logarítmica con choque al margen de precios.
 
 Grafico_program.m: Programa para hacer gráficos en Matlab a partir de productos del Dynare (IRF).
+
+Grafico_programSOE.m : Programa para replicar la Figura 1 de SG-U (2003).
 
 Grid_alpha.md:   "Setea" valores de alpha ante choques de productividad.
 
