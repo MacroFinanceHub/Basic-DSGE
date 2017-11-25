@@ -17,9 +17,6 @@ parameters alpha delta betta theta rho_z rho_g rho_lambda rho_gamma
 z_ss lab_ss r_ss  kap_ss w_ss y_ss c_ss inv_ss g_ss lambda_ss gamma_ss
 C_Y I_Y G_Y;
 
-//load parameters_mat;
-//set_param_value('alpha',alpha)
-
 alpha  = 1-0.33;
 delta  = 0.023;
 betta  = 0.99;
@@ -32,7 +29,7 @@ z_ss   = 1;
 lambda_ss = 1;
 gamma_ss = 1;
 G_Y    = 0.155;
-lab_ss = 1/((1-theta)/(alpha*theta*z_ss)*((1-betta+alpha*betta*delta)/(1-betta+betta*delta)-G_Y)+1);
+lab_ss = 1/((1-theta)/(alpha*theta*z_ss)*((1-betta+alpha*betta*delta)/(1-betta+betta*delta)-G_Y)*gamma_ss/lambda_ss+1);
 y_ss   = z_ss*(((1-alpha)*betta/(1-betta+betta*delta))^((1-alpha)/alpha))*lab_ss;
 w_ss   = alpha*y_ss/lab_ss;
 kap_ss = (1-alpha)*betta/(1-betta+betta*delta)*y_ss;
