@@ -59,3 +59,7 @@ Grid_alpha.md:   "Setea" valores de alpha ante choques de productividad.
 BaseLambda01.xlsx: Base de datos para obtención de ciclos económicos.
 
 programa1.prg:   Programa en Eviews para obtención de ciclos económicos.
+
+RBCTAREA.mod:    Programa que incorpora choque de preferencias y de oferta laboral al modelo RBC básico.
+
+TAREA_graph.m:   Programa para graficar los dos choques de la Tarea 1.
