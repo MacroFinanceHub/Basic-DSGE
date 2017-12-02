@@ -50,9 +50,15 @@ RBC19.mod:       Economia pequena y abierta - mercados completos.
 
 RBC20.mod:       Función de Utilidad logarítmica con choque al margen de precios.
 
+RBC21_Can.mod:   Economia pequena y abierta - trend shock - calibracion para Canada
+
+RBC21_Mex.mod:   Economia pequena y abierta - trend shock - calibracion para Mexico.
+
 Grafico_program.m: Programa para hacer gráficos en Matlab a partir de productos del Dynare (IRF).
 
 Grafico_programSOE.m : Programa para replicar la Figura 1 de SG-U (2003).
+
+Grafico_programSOE2.m: Programa para replicar la Figura 3 de A-G (2007).
 
 Grid_alpha.md:   "Setea" valores de alpha ante choques de productividad.
 
