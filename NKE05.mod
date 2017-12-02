@@ -51,5 +51,7 @@ discretionary_policy(planner_discount=0.99,instruments=(inom), nograph, irf=40);
 var_ygap(j,1)    =oo_.var(1,1);
 var_pic(j,1)     =oo_.var(3,3);
 end;
-varianzas        =[var_pic*10000 var_ygap*10000];
+varianzas        =[var_pic var_ygap];
 scatter(varianzas(:,1), varianzas(:,2))
+xlabel('\sigma_{\pi}^2','Fontsize',14)
+ylabel('\sigma_y^2','Fontsize',14)
