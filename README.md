@@ -69,3 +69,15 @@ programa1.prg:   Programa en Eviews para obtención de ciclos económicos.
 RBCTAREA.mod:    Programa que incorpora choque de preferencias y de oferta laboral al modelo RBC básico.
 
 TAREA_graph.m:   Programa para graficar los dos choques de la Tarea 1.
+
+NKE01.mod:       Modelo neokeynesiano de tres ecuaciones con politica monetaria optima (manual) extraido de C-G-G (1999).
+
+NKE02.mod:       Modelo neokeynesiano de tres ecuaciones con politica monetaria optima - comando osr.
+
+NKE03.mod:       Modelo neokeynesiano de tres ecuaciones con politica monetaria optima - comando discretionary_policy.
+
+NKE04.mod:       Modelo neokeynesiano de tres ecuaciones con politica monetaria optima - comando ramsey_policy.
+
+NKE05.mod:       Modelo neokeynesiano de tres ecuaciones con politica monetaria optima - frontera de politica.
+
+NKE06.mod:       Modelo neokeynesiano semiestructural backward-looking.
