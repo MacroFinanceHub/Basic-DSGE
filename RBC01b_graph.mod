@@ -77,19 +77,19 @@ end
 
 figure('units','normalized','outerposition',[0 0 1 1])
 for ii=1:length(grid01);
-    dates = (1:1:40)';
+    fechas = (1:1:40)';
     hold on;
-    m=plot(dates,respond_y(ii,:)'*100);
+    m=plot(fechas,respond_y(ii,:)'*100);
     set(m,'Color',[51/255 130/255 (214-(ii-1)*50)/255],'LineWidth',2.5,'LineStyle','-');
     grid on; 
-    xlim([1 40]); 
-    plot([0 40],[0 0],'-k','LineWidth',2)
+    %xlim([1 40]); 
+    %plot([0 40],[0 0],'-k','LineWidth',2)
     hold off;
     if ii>0
         xlabel('Trimestres','Fontsize',14)
     end
     ylabel('Desv. % EE','Fontsize',12)
+    legendInfo{ii} = ['\rho_z = ' num2str(grid01(ii))]
 end
-legend('\rho_z variante');
+legend(legendInfo);
 saveas(gcf,'IRF_Zvar.png')
- 
