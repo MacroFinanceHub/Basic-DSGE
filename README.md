@@ -32,11 +32,11 @@ RBC11.mod:       Función de Utilidad logarítmica con costos de ajuste al capit
 
 RBC12.mod:       Función de Utilidad logarítmica con choque específico a la inversión. 
 
-RBC13.mod:       Función de Utilidad logarítmica con dinero en una restricción Cash-in-Advance.  
+RBC13.mod:       Función de Utilidad logarítmica con trabajo indivisible a la Hansen.  
 
-RBC14.mod:       Función de Utilidad logarítmica con dinero en la función de utilidad.
+RBC14.mod:       Función de Utilidad logarítmica con dinero en una restricción Cash-in-Advance.
 
-RBC15.mod:       Función de Utilidad logarítmica con trabajo indivisible a la Hansen.
+RBC15.mod:       Función de Utilidad logarítmica con dinero en la función de utilidad.
 
 RBC16.mod:       Economia pequena y abierta - factor de descuento endogeno.
 
