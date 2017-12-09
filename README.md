@@ -81,3 +81,23 @@ NKE04.mod:       Modelo neokeynesiano de tres ecuaciones con politica monetaria 
 NKE05.mod:       Modelo neokeynesiano de tres ecuaciones con politica monetaria optima - frontera de politica.
 
 NKE06.mod:       Modelo neokeynesiano semiestructural backward-looking.
+
+NKE07.mod:       Modelo neokeynesiano en niveles.
+
+NKE08.mod:       Modelo neokeynesiano log-linealizado.
+
+NKE09.mod:       Modelo neokeynesiano log-linealizado incluyendo inversion y gasto publico. 
+
+NKE10.mod:       Modelo neokeynesiano estándar para economia pequena y abierta.
+
+NKE11.mod:       Modelo neokeynesiano de tres ecuaciones con politica monetaria optima - busqueda de malla.
+
+GM01.mod:        Economia pequena y abierta - regla sobre inflacion domestica.
+
+GM02.mod:        Economia pequena y abierta - regla sobre inflacion IPC.
+
+GM03.mod:        Economia pequena y abierta - tipo de cambio nominal fijo.
+
+GM04.mod:        Economia pequena y abierta - regla optima.
+
+Graph_NKE.mod:   Programa para replicar la Figura 1 de G-M (2005).
