@@ -1,3 +1,14 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%  LAMBDA GROUP %%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%%% TOPICOS DSGE - NKE %%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+// Codigo que describe un modelo NKE basico loglinealizado. 
+// El Estado Estacionario es cero debido a la loglinealizacion manual.
+// Modelo presentado en Gali y Monacelli (2005).
+// Politica monetaria bajo regla optima.
+// (c) Carlos Rojas Quiroz 
+
 var pih x y ynat rnat r s pi p ph e ystar pistar n nx real_wage a c deprec_rate ;
 varexo eps_star eps_a;
 parameters sigma eta gamma phi epsilon theta beta alpha phi_pi rhoa rhoy omega
