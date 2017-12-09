@@ -31,7 +31,7 @@ for ii=1:length(grid_alpha);
         xlabel('Trimestres','Fontsize',14)
     end
     ylabel('Desv. % EE','Fontsize',12)
-    legendInfo{ii} = ['X = ' num2str(grid_alpha(ii))]
+    legendInfo{ii} = ['\alpha = ' num2str(grid_alpha(ii))]
 end
 legend(legendInfo);
 saveas(gcf,'IRF_Alphavar.png')
