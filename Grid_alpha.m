@@ -24,13 +24,14 @@ for ii=1:length(grid_alpha);
     m=plot(dates,respond_y(ii,:)'*100);
     set(m,'Color',[51/255 130/255 (214-(ii-1)*50)/255],'LineWidth',2.5,'LineStyle','-');
     grid on; 
-    xlim([1 40]); 
-    plot([0 40],[0 0],'-k','LineWidth',2)
+    %xlim([1 40]); 
+    %plot([0 40],[0 0],'-k','LineWidth',2)
     hold off;
     if ii>0
         xlabel('Trimestres','Fontsize',14)
     end
     ylabel('Desv. % EE','Fontsize',12)
+    legendInfo{ii} = ['X = ' num2str(grid_alpha(ii))]
 end
-legend('\alpha variante');
+legend(legendInfo);
 saveas(gcf,'IRF_Alphavar.png')
