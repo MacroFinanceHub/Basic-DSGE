@@ -28,7 +28,7 @@ S         = 0.11        ;
 kappa     = ((1-theta)/theta)*(1-theta*beta);
 eps       = (1-delta)/((1-delta) + ((alpha/X)*(Y_N/K_N)));
 nu        = 0.5         ;
-FF        = 1           ;
+FF        = 0           ;
 
 model;
 y = C_Y*c + I_Y*i + G_Y*g + Ce_Y*ce;       
