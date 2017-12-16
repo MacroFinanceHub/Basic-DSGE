@@ -6,7 +6,7 @@
 clear all;
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-dynare NKE11.mod 
+dynare BGG01.mod 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 varble = {'y','i','rn','premium'};
 names  ={'Producto','Inversion','Tasa de interes nominal','Premio financiero'};
@@ -27,7 +27,7 @@ end
 save('Model01','resp_mat1');
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-dynare NKE11b.mod 
+dynare BGG02.mod 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 varble = {'y','i','rn','premium'};
 names  ={'Producto','Inversion','Tasa de interes nominal','Premio financiero'};
