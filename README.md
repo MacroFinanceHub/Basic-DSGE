@@ -1,68 +1,72 @@
-# Topicos-DSGE
-Modelos RBC y NK en Dynare 
-Los modelos utilizan el entorno Dynare para Matlab. Todos ellos estan compuestos de Consumidores, Productores y Gobierno que actuan en competencia perfecta. Los consumidores son dueños del capital. La calibración sigue a Fernandez-Villaverde (Lecture Notes on Macroeconomics). 
+# Welcome!
+This site contains some basics on DSGE modeling. It's part of workshops and classes I teach for undergraduate students (National Engineering University and Peruvian University of Applied Sciences). The platform I use is Dynare/Matlab.
 
-RBC01.mod:       Condiciones de primer orden (CPO) no lineales, linealizadas mediante una expansion de Taylor de primer orden.
+# Real business cycles 
+All the next models are composed of three agents: consumers, producers, and government (with a simple exogenous process). The calibration follows Fernandez-Villaverde's notes on Macroeconomics. 
 
-RBC01b.mod:      CPO no lineales, log-linealizadas mediante una expansion de Taylor de primer orden. 
+RBC01.mod:       Nonlinear First Order Conditions (FOC). Linearized with a first order Taylor expansion.
 
-RBC01b_graph.mod:RBC01b con cambios en el parámetro de persistencia del choque de productividad.
+RBC01b.mod:      Nonlinear FOC, log-linearized using a first order Taylor expansion.
 
-RBC02.mod:       CPO log-linealizadas manualmente. 
+RBC01b_graph.mod:RBC01b with changes in the productivity's autoregressive parameter. 
 
-RBC02b.mod:      Oferta de trabajo fija (efectos sustitución e ingreso se cancelan).
+RBC02.mod:       Hand-operated log-linearization of equilibrium conditions. 
 
-RBC03.mod:       Función de Utilidad a la Greenwood-Hercowitz-Huffman.
+RBC02b.mod:      Model with a fixed supply of labor (substitution and income effects cancel each other).
 
-RBC04.mod:       Función de Utilidad a la King-Plosser-Rebelo.
+RBC03.mod:       Greenwood-Hercowitz-Huffman utility function.
 
-RBC05.mod:       Función de Utilidad con Coeficiente de Aversión Relativa al Riesgo constante.
+RBC04.mod:       King-Plosser-Rebelo utility function.
 
-RBC06.mod:       Función de Utilidad logarítmica con hábitos de consumo interno.
+RBC05.mod:       Constant Risk Relative Aversion coefficient utility function.
 
-RBC07.mod:       Función de Utilidad logarítmica con hábitos de consumo externo.
+RBC06.mod:       Internal consumption habits.
 
-RBC08.mod:       Función de Utilidad logarítmica con ratio de uso de capital en forma de costo.
+RBC07.mod:       External consumption habits.
 
-RBC09.mod:       Función de Utilidad logarítmica con ratio de uso de capital con depreciación variable. 
+RBC08.mod:       Capital utilization rate as a variable cost.
 
-RBC10.mod:       Función de Utilidad logarítmica con costos de ajuste a la inversión. 
+RBC09.mod:       Capital utilization rate as a depreciation rate.
 
-RBC11.mod:       Función de Utilidad logarítmica con costos de ajuste al capital. 
+RBC10.mod:       Investment's adjusment cost. 
 
-RBC12.mod:       Función de Utilidad logarítmica con choque específico a la inversión. 
+RBC11.mod:       Capital's adjustment cost. 
 
-RBC13.mod:       Función de Utilidad logarítmica con trabajo indivisible a la Hansen.  
+RBC12.mod:       Specific investment shock. 
 
-RBC14.mod:       Función de Utilidad logarítmica con dinero en una restricción Cash-in-Advance.
+RBC13.mod:       Hansen's model with indivisible Labor.  
 
-RBC15.mod:       Función de Utilidad logarítmica con dinero en la función de utilidad.
+RBC14.mod:       Cash-in-Advance constraint.
 
-RBC16.mod:       Economia pequena y abierta - factor de descuento endogeno.
+RBC15.mod:       Money in Utility.
 
-RBC16a.mod:      Economia pequena y abierta - factor de descuento endogeno sin internalizacion.
+RBC16.mod:       Small open economy - variable internal discount factor.
 
-RBC17.mod:       Economia pequena y abierta - tasa de interes elastica a la deuda.
+RBC16a.mod:      Small open economy - variable external discount factor.
 
-RBC18.mod:       Economia pequena y abierta - costo de ajuste del portafolio.
+RBC17.mod:       Small open economy - debt elastic interest rate.
 
-RBC19.mod:       Economia pequena y abierta - mercados completos.
+RBC18.mod:       Small open economy - portfolio's adjustment cost.
 
-RBC20.mod:       Función de Utilidad logarítmica con choque al margen de precios.
+RBC19.mod:       Small open economy - complete markets.
 
-RBC21_Can.mod:   Economia pequena y abierta - trend shock - calibracion para Canada
+RBC20.mod:       Markup prices shock.
 
-RBC21_Mex.mod:   Economia pequena y abierta - trend shock - calibracion para Mexico.
+RBC21_Can.mod:   Small open economy - trend shock - Canada's calibration.
 
-Grafico_program.m: Programa para hacer gráficos en Matlab a partir de productos del Dynare (IRF).
+RBC21_Mex.mod:   Small open economy - trend shock - Mexico's calibration.
 
-Grafico_programSOE.m : Programa para replicar la Figura 1 de SG-U (2003).
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Grafico_programSOE2.m: Programa para replicar la Figura 3 de A-G (2007).
+Grafico_program.m:      Program for Impulse-Response graphics (IRF).
 
-Grid_alpha.md:   "Setea" valores de alpha ante choques de productividad.
+Grafico_programSOE.m :  Replicating Figure 1 from SG-U (2003).
 
-BaseLambda01.xlsx: Base de datos para obtención de ciclos económicos.
+Grafico_programSOE2.m:  Replicating Figure 3 from A-G (2007).
+
+Grid_alpha.md:          Setting different values of alpha under a productivity shock.
+
+BaseLambda01.xlsx:      Base de datos para obtención de ciclos económicos.
 
 programa1.prg:   Programa en Eviews para obtención de ciclos económicos.
 
